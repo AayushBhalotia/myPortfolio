@@ -4,7 +4,14 @@ import "./style.css";
 
 const NavBar = () => {
   return (
-    <Navbar className="navbar" fixed="top" bg="dark" variant="dark">
+    <Navbar
+      className="navbar"
+      collapseOnSelect
+      expand="lg"
+      fixed="top"
+      bg="dark"
+      variant="dark"
+    >
       <Navbar.Brand href="#home">PORTFOLIO</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
